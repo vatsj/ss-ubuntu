@@ -10,3 +10,6 @@ This project installs a basic setup for Ubuntu (Debian Linux, relies on the `apt
 `cd` into the project folder, then run the following: `. install.sh`
 
 To run an individual script (in the `scripts` folder), run `. scripts/[script name].sh`
+
+## Notes
+Based off of [vdrake's setup script](https://github.com/victoriadrake/dotfiles/tree/ubuntu-20.04/scripts)
