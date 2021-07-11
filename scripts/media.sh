@@ -1,6 +1,6 @@
 #!/bin/bash
 
-printf "\n\n installing media software \n"
+  printf "\n\n MEDIA SOFTWARE \n"
 
 # photo editing
 ssi gimp
