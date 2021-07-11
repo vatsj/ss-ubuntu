@@ -1,6 +1,6 @@
 #!/bin/bash
 
-  printf "\n\n MEDIA SOFTWARE \n"
+printf "\n\n MEDIA SOFTWARE \n"
 
 # photo editing
 ssi gimp
@@ -21,7 +21,6 @@ sai ffmpeg
 
 # video editing - kdenlive
 ssi kdenlive
-
 
 # filetype readers
 

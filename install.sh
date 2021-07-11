@@ -32,7 +32,7 @@ done
 
 # language-specific scripts
 cd ${PROJECT}/lang-scripts
-julia 
+julia julia_init.jl
 
 
 # record new path
