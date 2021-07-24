@@ -1,7 +1,8 @@
-# installing commonly-used packages
+print("\n Julia - installing commonly-used packages \n")
 using Pkg
 
-Pkg.add("IJulia") # recognized by jupyterlab
+# kernel for jupyterlab
+Pkg.add("IJulia")
 
 Pkg.add("JSON")
 

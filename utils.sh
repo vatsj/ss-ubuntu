@@ -18,7 +18,7 @@ ssi() {
 
   if [ $? -ne 0 ]; then
     echo "Installing: ${1}..."
-    sudo snap install -y $1
+    sudo snap install $1
   else
     echo "Already installed: ${1}"
   fi
@@ -30,6 +30,6 @@ path_remove() {
 }
 
 path_append() {
-    path_remove "$1"
+    path_remove $1
     PATH="${PATH:+"$PATH:"}$1"
 }

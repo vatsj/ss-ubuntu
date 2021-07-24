@@ -31,8 +31,8 @@ conda install -c conda-forge jupyterlab -y
 # tex stuff for jupyterlab ipynb --> tex --> pdf
 conda install nbconvert -y
 
-# ML libraries
-conda install -c anaconda tensorflow numpy pandas -y
+# ML libraries should come preinstalled
+# conda install -c anaconda tensorflow -y
 
 printf "\n NODE + NPM \n"
 sai nodejs
@@ -40,15 +40,16 @@ sai npm
 
 printf "\n RUBY \n"
 sai ruby-full
+
 # dependencies - do I need these?
 sai build-essential
-sai zliblg-dev
+# sai zliblg-dev
 
 # installs ruby gems
 if ! test -d ~/gems
 then
   echo 'GEM_HOME=${HOME}/gems' >> ~/.bashrc
-  path_append '${HOME}/gems/bin'
+  path_append ${HOME}/gems/bin
 
   gem install jekyll bundler
   gem install github-pages
@@ -56,4 +57,3 @@ fi
 
 printf "\n JULIA \n"
 sudo apt install julia
-# julia julia_init.jl

@@ -13,6 +13,7 @@ printf "\n apt update + upgrade \n"
 sudo apt update && sudo apt full-upgrade -y
 
 # installs critical prereqs
+printf "\n prereqs - git + snap \n"
 sai git
 sai snapd
 
@@ -32,6 +33,7 @@ done
 
 # language-specific scripts
 cd ${PROJECT}/lang-scripts
+chmod +x julia_init.jl
 julia julia_init.jl
 
 
@@ -39,7 +41,7 @@ julia julia_init.jl
 printf "\n\n PATH: \n"
 echo ${PATH}
 # export ${PATH}
-# echo 'PATH=${PATH}' >> ~/.bashrc
+echo export PATH=\"${PATH}\" >> ~/.bashrc
 
 # return to project dir
 cd ${PROJECT}

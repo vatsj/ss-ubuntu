@@ -12,8 +12,8 @@ printf "\n VIDEO CONFERENCING (zoom) \n"
 ssi zoom-client
 
 printf "\n BROWSERS \n"
+# ssi firefox
 ssi chromium
-ssi firefox
 
 printf "\n DEV \n"
 ssi heroku
