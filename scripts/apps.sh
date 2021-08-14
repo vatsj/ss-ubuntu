@@ -6,7 +6,7 @@ printf "\n SOCIAL PLATFORMS \n"
 ssi discord
 ssi whatsapp-for-linux
 ssi signal-desktop
-ssi slack
+ssic slack
 
 printf "\n VIDEO CONFERENCING (zoom) \n"
 ssi zoom-client
@@ -16,7 +16,7 @@ printf "\n BROWSERS \n"
 ssi chromium
 
 printf "\n DEV \n"
-ssi heroku
+ssic heroku
 
 # nice screensaver
 sai wallch

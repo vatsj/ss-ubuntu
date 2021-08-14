@@ -10,7 +10,7 @@ sai tmux
 sai xsel
 
 # GUI editor - Atom
-ssi atom
+ssic atom
 
 # installs atom packages
 

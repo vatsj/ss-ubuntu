@@ -4,4 +4,7 @@ printf "\n\n COMMAND-LINE TOOLS \n"
 sudo apt install htop
 
 # github
-sai gh
+ssi gh
+
+# gnu - make
+sai make

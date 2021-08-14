@@ -24,6 +24,17 @@ ssi() {
   fi
 }
 
+# sudo snap install --classic
+ssic() {
+  which $1 &> /dev/null
+
+  if [ $? -ne 0 ]; then
+    echo "Installing: ${1}..."
+    sudo snap install $1 --classic
+  else
+    echo "Already installed: ${1}"
+  fi
+}
 # modifies PATH locally
 path_remove() {
     PATH=$(echo -n "$PATH" | awk -v RS=: -v ORS=: "\$0 != \"$1\"" | sed 's/:$//')

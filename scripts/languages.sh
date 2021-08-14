@@ -15,6 +15,7 @@ else
 fi
 
 # sets up conda
+source ~/.bashrc
 conda update -n base -c defaults conda -y
 conda init
 conda activate
@@ -34,6 +35,9 @@ conda install nbconvert -y
 # ML libraries should come preinstalled
 # conda install -c anaconda tensorflow -y
 
+# end in base env
+conda activate base
+
 printf "\n NODE + NPM \n"
 sai nodejs
 sai npm
@@ -51,8 +55,8 @@ then
   echo 'GEM_HOME=${HOME}/gems' >> ~/.bashrc
   path_append ${HOME}/gems/bin
 
-  gem install jekyll bundler
-  gem install github-pages
+  sudo gem install jekyll bundler
+  sudo gem install github-pages
 fi
 
 printf "\n JULIA \n"
