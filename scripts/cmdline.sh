@@ -6,5 +6,10 @@ sudo apt install htop
 # github
 ssi gh
 
-# gnu - make
+# GNU utils
+
+# make (for Makefiles)
 sai make
+
+# stow (dotfiles are stow-ed)
+sai stow
