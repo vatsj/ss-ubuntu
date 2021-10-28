@@ -25,7 +25,8 @@ ssi kdenlive
 # filetype readers
 
 # epub reader
-sai fbreader
+# (calibre might be preinstalled on Linux distros?)
+sai calibre
 
 # simple PDF editing
 sai xournal
