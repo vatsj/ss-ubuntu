@@ -47,7 +47,7 @@ sai ruby-full
 
 # dependencies - do I need these?
 sai build-essential
-# sai zliblg-dev
+sai zliblg-dev
 
 # installs ruby gems
 if ! test -d ~/gems

@@ -16,6 +16,7 @@ sai pavucontrol
 ssi vlc
 
 # yt-dl + ffmpeg
+# might need to install w pip for yt-dl to work properly?
 sai youtube-dl
 sai ffmpeg
 
