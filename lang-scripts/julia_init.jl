@@ -11,6 +11,6 @@ Pkg.add("JSON")
 Pkg.add("LinearAlgebra")
 Pkg.add("Plots")
 
-## convex opt (STN - ee364a)
+# convex opt (STN - ee364a)
 Pkg.add("Convex")
 Pkg.add("SCS")
