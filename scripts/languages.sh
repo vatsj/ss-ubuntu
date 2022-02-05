@@ -61,3 +61,7 @@ fi
 
 printf "\n JULIA \n"
 sudo apt install julia
+
+printf "\n TEX - TeX live \n"
+# https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex
+sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
