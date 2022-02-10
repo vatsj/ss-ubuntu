@@ -5,6 +5,7 @@ printf "\n\n MISC APPLICATIONS \n"
 printf "\n SOCIAL PLATFORMS \n"
 ssi discord
 ssi whatsapp-for-linux
+ssi caprine
 ssi signal-desktop
 ssic slack
 
