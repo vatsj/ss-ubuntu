@@ -14,10 +14,16 @@ ssi zoom-client
 
 printf "\n BROWSERS \n"
 # ssi firefox
-ssi chromium
+# chromium doesn't sync w google account --> bad
+# ssi chromium
 
 printf "\n DEV \n"
+
+# deploying apps remotely
 ssic heroku
+
+# gui for VMs
+sai virt-manager
 
 # nice screensaver
 sai wallch
