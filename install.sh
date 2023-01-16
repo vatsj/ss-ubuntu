@@ -17,6 +17,11 @@ printf "\n prereqs - git + snap \n"
 sai git
 sai snapd
 
+# installs prereqs for dotfile script
+# https://github.com/vatsj/dotfiles
+sai stow
+sai make
+
 # runs aux scripts
 printf "\n running aux scripts \n"
 
